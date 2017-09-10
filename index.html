@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="/scripts/jquery.min.js"></script>
+   <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class = "navbar-brand" href = "#">Hairdresser</a>
+            </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                      <li class = "active"><a href = "#">Kaj nudimo</a></li>
+                      <li><a href = "#">Naroči se</a></li>
+                      <li><a href = "#">FAQ</a></li>
+                      <li><a href = "#">O nas</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                 <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                 </div>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <!-- CAROUSEL -->
+    <div id = "myCarousel" class = "carousel slide">
+        <!-- Carousel indicators -->
+   <ol class = "carousel-indicators">
+      <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+      <li data-target = "#myCarousel" data-slide-to = "1"></li>
+      <li data-target = "#myCarousel" data-slide-to = "2"></li>
+   </ol>
+
+   <!-- Carousel items -->
+   <div class = "carousel-inner">
+      <div class = "item active">
+         <img src = "pictures/slidepicture1.jpg" alt = "First slide">
+      </div>
+
+      <div class = "item">
+         <img src = "pictures/slidepicture2.jpg" alt = "Second slide">
+      </div>
+
+      <div class = "item">
+         <img src = "pictures/slidepicture3.jpg" alt = "Third slide">
+      </div>
+   </div>
+
+   <!-- Carousel nav -->
+   <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">&lsaquo;</a>
+   <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">&rsaquo;</a>
+    </div>
+    <hr>
+<!-- offers -->
+    <div class="container" id="services">
+        <h2 class="text-center">Kaj nudimo</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Nega las <span class="glyphicon glyphicon-star"></span></h4>
+                <img src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-services-1.jpg">
+            </div>
+
+            <div class="col-md-4">
+                <h4>Barvanje <span class="glyphicon glyphicon-tint"></span></h4>
+                <img src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-services-2.jpg">
+            </div>
+
+            <div class="col-md-4">
+                <h4>Striženje <span class="glyphicon glyphicon-scissors"></span></h4>
+                <img src="https://storage.googleapis.com/smartninja-org-assets/curriculums/wd1/img/hairsalon-services-3.jpg">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- appointment -->
+
+    <div class="container" id="appointment">
+        <h2 class="text-center">Naroči se</h2>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1 form-group">
+                <input type="text" class="form-control" placeholder="Ime in priimek">
+                <br>
+                <input type="text" class="form-control" placeholder="Tel. številka">
+                <br>
+                <input type="text" class="form-control" placeholder="Termin">
+                <br>
+                <textarea class="form-control" placeholder="Ostalo (želje glede pričeske...) " rows="5"></textarea>
+                <br>
+                <input type="checkbox"> Strinjam se s pogoji.
+                <br>
+                <br>
+                <button class="btn btn-success center-block">Pošlji</button>
+            </div>
+
+
+    <div class="col-md-4 col-md-offset-1">
+        <table class="table table-condensed table-bordered  table-hover">
+            <tr>
+                <th>Dan</th>
+                <th>Delovne ure</th>
+            </tr>
+            <tr>
+                <td>Ponedeljek</td>
+                <td>8.00 - 16.00</td>
+            </tr>
+            <tr>
+                <td>Torek</td>
+                <td>10.00 - 18.00</td>
+            </tr>
+            <tr>
+                <td>Sreda</td>
+                <td>8.00 - 16.00</td>
+            </tr>
+            <tr>
+                <td>Četrtek</td>
+                <td>8.00 - 16.00</td>
+            </tr>
+            <tr>
+                <td>Petek</td>
+                <td>8.00 - 13.00</td>
+            </tr>
+            <tr>
+                <td>Sobota</td>
+                <td>Zaprto</td>
+            </tr>
+            <tr>
+                <td>Nedelja</td>
+                <td>Zaprto</td>
+            </tr>
+
+        </table>
+        <p>*Ob praznikih velja nedeljski urnik</p>
+    </div>
+</div>
+</div>
+    <hr>
+<!-- FAQ -->
+<div class="row">
+    <h2 class="text-center">FAQ (Frequently Asked Questions)</h2>
+        <br>
+
+    <div class="panel-group">
+        <div class="panel-heading" style="border: 1px solid black; background: #E5E5E5">Kakšen je salon in ekipa?</div>
+        <div class="panel-body" style="border: 1px solid black">Frizerski salon Celovška se nahaja v neprosredni bližini Tivolija, kar vam omogoča
+            praktično parkiranje v Tivoliju. Smo simpatična in dobrovoljna ekipa, ki poskrbi, da se boste v salonu
+            počutili prijetno, domače in vedno dobrodošli. Poskrbeli bomo za natančno striženje, kreativno barvanje,
+            ličenje in lakiranje nohtov ter kisikovo nego las, lasišča in obraza. Z našo pozitivno energijo bomo
+            poskrbeli, da boste iz salona vedno odšli dobre volje. V salonu imamo tudi Wi-Fi dostopno točko za
+            brezplačni internet, za tiste, ki imate raje kot klepet "surfanje" po spletu. Razvajamo vas že od leta 1960.
+        </div>
+        <br>
+        <div class="panel-heading" style="border: 1px solid black; background: #E5E5E5">Ali sprejemate hišne ljubljenčke?</div>
+        <br>
+         <div class="panel-heading" style="border: 1px solid black; background: #E5E5E5">Imate kakšne nagrade s tekmovanj?</div>
+
+    </div>
+
+</div>
+    <!-- END FAQ -->
+<hr>
+  <!-- FOOTER -->
+<footer class="container" style="background: #F7F7F7">
+<div class="row">
+    <div class="col-md-4 col-xs-12 text-center" >
+        <h4>Kontakt</h4>
+        <br>
+        <p>
+            Frizer Ninja s.p.<br>
+            Davčna številka: 192843756<br>
+            Frizerska ulica 5, 1000 LJ<br>
+            Telefon: 031-111-111<br>
+            Email: info@frizeraj.com
+        </p>
+    </div>
+    <div class="col-md-4 col-xs-10 text-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3CJscLNI7BPAtkDpu1XVjOFgkZYrfat3H5zeCjn_wo6WnFAZN">
+    </div>
+    <div class="col-md-4 col-xs-12 text-center">
+        <h4>Navigacija</h4>
+        <br>
+        <p>
+            <a href = "#">Kaj nudimo</a><br>
+            <a href = "#">Naroči se</a><br>
+            <a href = "#">FAQ</a><br>
+            <a href = "#">O nas</a><br>
+        </p>
+    </div>
+</div>
+</footer>
+
+
+</div>
+
+
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#naslov {
+    font-size: 40px;
+    text-weight: bold;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
